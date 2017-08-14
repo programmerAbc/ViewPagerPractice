@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="@dimen/tab_width"
+        android:layout_height="@dimen/tab_height">
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="评论"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/unReadMsgNumTv"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignRight="@+id/titleTv"
+            android:layout_alignTop="@+id/titleTv"
+            android:layout_marginRight="-11dp"
+            android:layout_marginTop="-12dp"
+            android:background="@drawable/red_circle"
+            android:gravity="center"
+            android:text="99"
+            android:textColor="@android:color/white"
+            android:textSize="9sp" />
+    </RelativeLayout>
+</FrameLayout>
